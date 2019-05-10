@@ -4,15 +4,42 @@
 
   <groupId>com.vmlens</groupId>
   <artifactId>annotation</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <name>annotation</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/vmlens/annotation</url>
+  <description>Annotation to suppress warnings for race conditions in vmlens.</description>
+	
+    <licenses>
+      <license>
+          <name>Eclipse Public License - v 1.0</name>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      </license>
+   </licenses>
+   
+    <developers>
+       <developer>
+         <name>Thomas Krieger</name>
+         <email>thomas.krieger@vmlens.com</email>
+         <organization>vmlens</organization>
+         <organizationUrl>http://www.vmlens.com</organizationUrl>
+      </developer>
+    </developers>
+    
+    <scm>
+         <connection>scm:git:git@github.com:vmlens/annotation.git</connection>
+         <developerConnection>scm:git:git@github.com:vmlens/annotation.git</developerConnection>
+         <url>git@github.com:vmlens/annotation.git</url>
+    </scm>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+
+
 
   <dependencies>
     <dependency>
@@ -22,4 +49,50 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+  
+  
+  <build>		
+ <plugins>
+       <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-source-plugin</artifactId>
+      <executions>
+        <execution>
+          <id>attach-sources</id>
+          <goals>
+            <goal>jar</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+     <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <executions>
+        <execution>
+          <id>attach-javadocs</id>
+          <goals>
+            <goal>jar</goal>
+          </goals>
+        </execution>
+      </executions>
+      
+                    <configuration>
+  
+          <excludePackageNames>*.internal.*</excludePackageNames>
+    
+        </configuration>
+      
+    </plugin> 
+    </plugins>
+ </build>
+  
+  
+  
+  
+  
+  
+  
 </project>
