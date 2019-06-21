@@ -15,4 +15,10 @@ public class Agent {
 	}
 	
 	
+	
+//	public static void log(String message)
+//	{
+//		
+//	}
+	
 }

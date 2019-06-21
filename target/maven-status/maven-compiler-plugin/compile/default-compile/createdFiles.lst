@@ -3,6 +3,7 @@ com/vmlens/annotation/Stateless.class
 com/vmlens/annotation/Atomic.class
 com/vmlens/annotation/DoNotTrace.class
 com/vmlens/annotation/TransferFrom.class
+com/vmlens/annotation/NoGroup.class
 com/vmlens/annotation/TransferTo.class
 com/vmlens/annotation/Callback.class
 com/vmlens/annotation/Owner.class

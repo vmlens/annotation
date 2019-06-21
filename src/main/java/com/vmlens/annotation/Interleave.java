@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
 @Retention(value=RetentionPolicy.CLASS)
 public @interface Interleave {
 
-	Class group();
-	int threadCount();
+	Class value() default NoGroup.class;
 	
 }
