@@ -8,5 +8,8 @@ import java.lang.annotation.Target;
 @Target(value={ElementType.TYPE})
 @Retention(value=RetentionPolicy.CLASS)
 public @interface Stateless {
+	
+	String[]  except() default {};
+	
 
 }

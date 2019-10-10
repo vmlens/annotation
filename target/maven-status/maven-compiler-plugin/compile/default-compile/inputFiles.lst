@@ -1,11 +1,6 @@
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/TransferFrom.java
+/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/api/AllInterleavings.java
 /home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/Stateless.java
 /home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/DoNotTrace.java
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/Owner.java
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/Interleave.java
 /home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/Atomic.java
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/NoGroup.java
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/TransferTo.java
-/home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/SuppressWarningForRace.java
 /home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/annotation/Callback.java
 /home/thomas/git_external/annotation/annotation/src/main/java/com/vmlens/api/Agent.java
