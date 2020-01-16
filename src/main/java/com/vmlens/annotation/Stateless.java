@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 @Retention(value=RetentionPolicy.CLASS)
 public @interface Stateless {
 	
-	String[]  except() default {};
+	String[]  value() default {};
 	
 
 }
