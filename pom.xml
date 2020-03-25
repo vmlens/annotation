@@ -18,6 +18,12 @@
       </license>
    </licenses>
    
+   <organization>
+    <name>vmlens</name>
+    <url>https://www.vmlens.com</url>
+  </organization>
+   
+   
     <developers>
        <developer>
          <name>Thomas Krieger</name>
@@ -68,7 +74,7 @@
                     <configuration>
   
           <excludePackageNames>*.internal.*</excludePackageNames>
-    
+     
         </configuration>
       
     </plugin> 
