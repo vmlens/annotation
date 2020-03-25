@@ -6,9 +6,9 @@ This project contains the API and annotations to test multi-threaded Java with [
 You can [see the JavaDoc here](https://vmlens.com/apidocs/annotation/)
 
 
-# maven
+# Download
 
-Integrate in maven using the following dependency:
+Use the following dependency for maven:
 
 ```xml
 <dependency>
@@ -17,3 +17,5 @@ Integrate in maven using the following dependency:
   <version>1.0.4</version>
 </dependency>
 ```
+
+You can download the binaries [from maven central here](https://search.maven.org/remotecontent?filepath=com/vmlens/annotation/1.0.4/annotation-1.0.4.jar).
